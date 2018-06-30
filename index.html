@@ -15,7 +15,9 @@
           <li><a href="aboutus.html">Информация о нас</a></li>
       </ul>
       <ul class="user-navigation">
-        <li><a href="#">Вход</a></li>
+        <li class="login-link">
+          <a class="login-link" href="login-link.html">Вход</a>
+        </li>
         <li><a href="#">Корзина</a></li>
       </ul>
     </nav>
@@ -82,7 +84,11 @@
 </section>
 <section>
   <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
-   <!-- Здесь будет форма -->
+  <form action="https://#" method="post">
+    <label class="visually-hidden" for="emeil-adress">Электронная почта</label>
+      <input type="text" id="email-adress" name="email-adress" value="Электронная почта">
+      <button class="button" type="submit">Отправить</button>
+  </form>
  </section>
 <div>
   <p>Адрес главного офиса
@@ -91,7 +97,9 @@
 <p>Для заказов по телефону:<br>
   8 812 450-25-25
 (с 10 до 20 ежедневно)</p>
-<!-- Здесь будет форма -->
+ <form action="https://#" method="post">
+   <button class="button" type="button">Форма обратной связи</button>
+ </form>
 </div>
 </main>
 <footer class="main-footer">
@@ -115,5 +123,23 @@
    <a class="button" href="https://htmlacademy.ru">Сделано в HTML Academy © 2017</a>
  </p>
 </footer>
+ <section class="modal modal-login">
+  <form class="login-form" action="https://#" method="post">
+    <p>
+      <label class="visually-hidden" for="login-email">Введите свой email</label>
+      <input type="text" id="login-email" name="login-email" value="Электронная почта">
+    </p>
+    <p>
+      <label class="visually-hidden" for="password">Введите свой пароль</label>
+      <input type="password" id="password" name="password" value="Пароль">
+    </p>
+    <button class="button" type="submit">Войти</button>
+    <p>
+      <a class="restore" href="#">Забыли пароль?</a>
+      <a class="new-registration" href="#">Новая регистрация</a>
+    </p>
+  </form>
+</section>      
+
 </body>
 </html>
