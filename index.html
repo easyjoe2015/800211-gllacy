@@ -18,7 +18,7 @@
         <li class="login-link">
           <a class="login-link" href="login-link.html">Вход</a>
         </li>
-        <li><a href="#">Корзина</a></li>
+        <li><a href="bag.html">Корзина</a></li>
       </ul>
     </nav>
     <div>
@@ -90,6 +90,8 @@
       <button class="button" type="submit">Отправить</button>
   </form>
  </section>
+ <div>
+   <img src="img/map.jpg" width="1200" height="430" alt="ул. Большая Конюшенная 19/8, Санкт-Петербург">
 <div>
   <p>Адрес главного офиса
 и офлайн-магазина:<br>
@@ -105,18 +107,18 @@
 <footer class="main-footer">
   <div class="footer-social">
         <ul>
-          <li><a class="social-button" href="#">Твиттер</a></li>
-          <li><a class="social-button" href="#">Инстаграм</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="https://twitter.com">Твиттер</a></li>
+          <li><a class="social-button" href="https://www.instagram.com">Инстаграм</a></li>
+          <li><a class="social-button" href="https://facebook.com">Фейсбук</a></li>
+          <li><a class="social-button" href="https://vk.com">Вконтакте</a></li>
         </ul>
       </div>
       <div class="footer-about">
               <ul>
-                <li><a class="for-providers" href="#">Для поставщиков</a></li>
-                <li><a class="about-production" href="#">О производстве</a></li>
-                <li><a class="our-documents" href="#">Наши документы</a></li>
-                <li><a class="environmental standards" href="#">Экологические стандарты</a></li>
+                <li><a class="for-providers" href="forproviders.html">Для поставщиков</a></li>
+                <li><a class="about-production" href="about.html">О производстве</a></li>
+                <li><a class="our-documents" href="documents.html">Наши документы</a></li>
+                <li><a class="environmental standards" href="standards.html">Экологические стандарты</a></li>
               </ul>
             </div>
  <p>
@@ -135,11 +137,28 @@
     </p>
     <button class="button" type="submit">Войти</button>
     <p>
-      <a class="restore" href="#">Забыли пароль?</a>
-      <a class="new-registration" href="#">Новая регистрация</a>
+      <a class="restore" href="restore-password.html">Забыли пароль?</a>
+      <a class="new-registration" href="new-registration.html">Новая регистрация</a>
     </p>
   </form>
-</section>      
-
+</section>
+<section class="modal-search">
+  <form class="search" action="https://#" method="get">
+    <label class="visually-hidden" for="search">Поиск по сайту</label>
+    <input type="text" name="search" id="search" value="Что ищем?">
+  </form>
+</section>
+<section class="feedback">
+  <h2>Мы обязательно вам ответим!</h2>
+  <form class="feedback" action="https://#" method="post">
+    <label class="visually-hidden" for="name">Ваше имя</label>
+    <input type="text" name="name" id="name" value="Как вас зовут?"><br>
+    <label class="visually-hidden" for="adress-to-feedback">Ваша почта для ответа</label>
+    <input type="text" name="adress-to-feedback" id="adress-to-feedback" value="Ваша почта для ответа?"><br>
+    <label class="visually-hidden" for="commet">Ваше сообщение</label>
+    <textarea name="message" id="comment" rows="5">Напишите что-нибудь...</textarea><br>
+    <button class="button" type="submit">Отправить</button>
+  </form>
+</section>
 </body>
 </html>

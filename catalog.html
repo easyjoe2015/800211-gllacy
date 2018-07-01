@@ -35,7 +35,33 @@
        </ul>
        <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <!-- Здесь будет форма -->
+        <form class="filters" action="https://#" method="get">
+         <label for="sort">Сортировака:</label><br>
+          <select name="sort" id="sort">
+            <option value="by-popularity">по популярности</option>
+            <option value="first-inexpensive">сначала недорогие</option>
+            <option value="first-expensive">сначала дорогие</option>
+            <option value="by-fat-content">по жирности</option>
+          </select>
+          <label for="price">Цена: 100 руб. - 500 руб.</label>
+          <input type="range" id="price" name="price" min="100" max="500"/><br>
+          <label for="fat">Жирность:</label>
+          <p><input type="radio" id="fat" name="fat" value="0%">0%</p>
+          <p><input type="radio" id="fat" name="fat" value="10%">до 10%</p>
+          <p><input type="radio" id="fat" name="fat" value="30%">до 30%</p>
+          <p><input type="radio" id="fat" name="fat" value="30%+">выше 30%</p>
+          <p>Наполнители:</p>
+          <label for="chocolate-field">шоколадные</label>
+          <input type="checkbox" name="chocolate" id="chocolate-field" checked>
+          <label for="sugar-powder">сахарные присыпки</label>
+          <input type="checkbox" name="sugar-powder" id="sugar-powder" checked>
+          <label for="fruit-field">фрукты</label>
+          <input type="checkbox" name="fruit" id="fruit-field">
+          <label for="syrups-field">сиропы</label>
+          <input type="checkbox" name="syrups" id="syrups-field">
+          <label for="jams-field">джемы</label>
+          <input type="checkbox" name="jams" id="jams-field">
+        </form>
       </section>
       <section class="catalog">
        <h2 class="visually-hidden">Список видов мороженого</h2>
@@ -167,5 +193,28 @@
        <a class="button" href="https://htmlacademy.ru">Сделано в HTML Academy © 2017</a>
      </p>
     </footer>
-         </body>
+    <section class="modal modal-login">
+     <form class="login-form" action="https://#" method="post">
+       <p>
+         <label class="visually-hidden" for="login-email">Введите свой email</label>
+         <input type="text" id="login-email" name="login-email" value="Электронная почта">
+       </p>
+       <p>
+         <label class="visually-hidden" for="password">Введите свой пароль</label>
+         <input type="password" id="password" name="password" value="Пароль">
+       </p>
+       <button class="button" type="submit">Войти</button>
+       <p>
+         <a class="restore" href="restore-password.html">Забыли пароль?</a>
+         <a class="new-registration" href="new-registration.html">Новая регистрация</a>
+       </p>
+     </form>
+   </section>
+   <section class="modal-search">
+     <form class="search" action="https://#" method="get">
+       <label class="visually-hidden" for="search">Поиск по сайту</label>
+       <input type="text" name="search" id="search" value="Что ищем?">
+     </form>
+   </section>
+  </body>
 </html>
