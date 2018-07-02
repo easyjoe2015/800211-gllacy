@@ -17,7 +17,32 @@
           <li><a href="aboutus.html">Информация о нас</a></li>
       </ul>
       <ul class="user-navigation">
-        <li><a href="#">Вход</a></li>
+        <li>
+          <section class="dropsearch">
+            <form class="search" action="https://echo.htmlacademy.ru/" method="get">
+              <label class="visually-hidden" for="search-field">Поиск по сайту</label>
+              <input type="text" name="search" id="search-field" value="Что ищем?">
+            </form>
+        </li>
+        <li><a href="#">Вход</a>
+          <section class="droplist">
+           <form class="login-form" action="https://echo.htmlacademy.ru/" method="post">
+             <p>
+               <label class="visually-hidden" for="login-email-field">Введите свой email</label>
+               <input type="text" id="login-email-field" name="login-email" value="Электронная почта">
+             </p>
+             <p>
+               <label class="visually-hidden" for="password-field">Введите свой пароль</label>
+               <input type="password" id="password-field" name="password" value="Пароль">
+             </p>
+             <button class="button" type="submit">Войти</button>
+             <p>
+               <a class="restore" href="restore-password.html">Забыли пароль?</a>
+               <a class="new-registration" href="new-registration.html">Новая регистрация</a>
+             </p>
+           </form>
+         </section>
+       </li>
         <li><a href="#">Корзина</a></li>
       </ul>
     </nav>
@@ -35,16 +60,16 @@
        </ul>
        <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <form class="filters" action="https://#" method="get">
-         <label for="sort">Сортировака:</label><br>
-          <select name="sort" id="sort">
+        <form class="filters" action="https://echo.htmlacademy.ru/" method="get">
+         <label for="sort-product">Сортировака:</label><br>
+          <select name="sort" id="sort-product">
             <option value="by-popularity">по популярности</option>
             <option value="first-inexpensive">сначала недорогие</option>
             <option value="first-expensive">сначала дорогие</option>
             <option value="by-fat-content">по жирности</option>
           </select>
-          <label for="price">Цена: 100 руб. - 500 руб.</label>
-          <input type="range" id="price" name="price" min="100" max="500"/><br>
+          <label for="price-field">Цена: 100 руб. - 500 руб.</label>
+          <input type="range" id="price-field" name="price" min="100" max="500"/><br>
           <label for="fat">Жирность:</label>
           <p><input type="radio" id="fat" name="fat" value="0%">0%</p>
           <p><input type="radio" id="fat" name="fat" value="10%">до 10%</p>
@@ -53,8 +78,8 @@
           <p>Наполнители:</p>
           <label for="chocolate-field">шоколадные</label>
           <input type="checkbox" name="chocolate" id="chocolate-field" checked>
-          <label for="sugar-powder">сахарные присыпки</label>
-          <input type="checkbox" name="sugar-powder" id="sugar-powder" checked>
+          <label for="sugar-field">сахарные присыпки</label>
+          <input type="checkbox" name="sugar-powder" id="sugar-field" checked>
           <label for="fruit-field">фрукты</label>
           <input type="checkbox" name="fruit" id="fruit-field">
           <label for="syrups-field">сиропы</label>
@@ -192,29 +217,6 @@
      <p>
        <a class="button" href="https://htmlacademy.ru">Сделано в HTML Academy © 2017</a>
      </p>
-    </footer>
-    <section class="modal modal-login">
-     <form class="login-form" action="https://#" method="post">
-       <p>
-         <label class="visually-hidden" for="login-email">Введите свой email</label>
-         <input type="text" id="login-email" name="login-email" value="Электронная почта">
-       </p>
-       <p>
-         <label class="visually-hidden" for="password">Введите свой пароль</label>
-         <input type="password" id="password" name="password" value="Пароль">
-       </p>
-       <button class="button" type="submit">Войти</button>
-       <p>
-         <a class="restore" href="restore-password.html">Забыли пароль?</a>
-         <a class="new-registration" href="new-registration.html">Новая регистрация</a>
-       </p>
-     </form>
-   </section>
-   <section class="modal-search">
-     <form class="search" action="https://#" method="get">
-       <label class="visually-hidden" for="search">Поиск по сайту</label>
-       <input type="text" name="search" id="search" value="Что ищем?">
-     </form>
-   </section>
+   </footer>
   </body>
 </html>
