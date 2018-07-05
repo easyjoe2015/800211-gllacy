@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #ffffff;
+
+  background-color: #849d8f;
+  background-image: url("img/background-catalog.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.main-navigation {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #849d8f;
+}
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+}
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #242424;
+}
+.time {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.number {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.special-offer {
+  text-align: center;
+}
+.special-offer h2 {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+}
+.best-choise p {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+.best-choise span {
+  font-size: 30px;
+  line-height: 45px;
+}
+.best-choise {
+  text-transform: none;
+}
+.about-waffle {
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+
+  background-color: #eee2c8;
+  background-image: url("img/waffle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about-waffle h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+.ways-fruit {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #323232;
+
+
+  background-color: #ffffff;
+  background-image: url("img/10-ways.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ways-fruit h4 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.sweet-subscribe {
+  color: #323232;
+
+  background-color: #f8f7f4;
+  width: 548px;
+  height: 210px;
+  border-radius: 5px;
+
+  background-image: url("img/bg-post.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.map {
+  background-color: #ffffff;
+  background-image: url("img/map.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contacts-info {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #323232;
+
+  background-color: #f8f7f4;
+  width: 302px;
+  height: 305px;
+  border-radius: 5px;
+}
+.contacts-info span {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.footer-about {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.for-providers {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+}
+.made-by {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.filters {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.pagination-list {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
