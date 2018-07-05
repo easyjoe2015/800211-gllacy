@@ -57,13 +57,14 @@ body {
   font-size: 45px;
   line-height: 45px;
   font-weight: 700;
+
 }
 .best-choise span {
   font-size: 30px;
   line-height: 45px;
 }
-.best-choise {
-  text-transform: none;
+.best-choise .catalog-item {
+  list-style: none;
 }
 .about-waffle {
   font-size: 16px;
@@ -87,7 +88,9 @@ body {
 
 
   background-color: #ffffff;
-  background-image: url("img/10-ways.png");
+  background-image: url("img/waysten.png");
+  width: 560px;
+  height: 220px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -111,6 +114,8 @@ body {
 .map {
   background-color: #ffffff;
   background-image: url("img/map.jpg");
+  width: 1200px;
+  height: 430px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -124,6 +129,15 @@ body {
   width: 302px;
   height: 305px;
   border-radius: 5px;
+}
+.social  {
+  list-style: none;
+}
+.ft-about  {
+  list-style: none;
+}
+.pagination-list {
+  list-style: none;
 }
 .contacts-info span {
   font-size: 18px;
