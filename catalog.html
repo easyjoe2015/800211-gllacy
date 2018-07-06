@@ -56,16 +56,16 @@
    </header>
    <main class="container">
       <h1 class="page-title">Cливочное мороженое</h1>
-      <ul class="breadcrumbs">
-       <li><a href="index.html">Главная</a></li>
-       <li><a href="catalog.html">Каталог</a></li>
+      <ul>
+       <li><a class="breadcrumbs" href="index.html">Главная</a></li>
+       <li><a class="breadcrumbs" href="catalog.html">Каталог</a></li>
        <li class="breadcrumbs-current">Сливочное</li>
-       </ul>
+      </ul>
        <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <form class="filters" action="https://echo.htmlacademy.ru/" method="get">
          <label for="sort-product">Сортировака:</label><br>
-          <select name="sort" id="sort-product">
+          <select name="sort" id="sort-product" class="popularity">
             <option value="by-popularity">по популярности</option>
             <option value="first-inexpensive">сначала недорогие</option>
             <option value="first-expensive">сначала дорогие</option>
@@ -192,8 +192,8 @@
          </li>
        </ul>
        <ul class="pagination-list">
-          <li class="pagination-item"><a href="#">1</a></li>
-          <li class="pagination-item pagination-item-current"><a>2</a></li>
+          <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
+          <li class="pagination-item"><a href="#">2</a></li>
           <li class="pagination-item"><a href="#">3</a></li>
           <li class="pagination-item"><a href="#">4</a></li>
           <li class="pagination-item"><a href="#">5</a></li>
@@ -203,23 +203,41 @@
     <footer class="main-footer">
       <div class="footer-social">
             <ul class="social">
-              <li><a class="social-button" href="#">Твиттер</a></li>
-              <li><a class="social-button" href="#">Инстаграм</a></li>
-              <li><a class="social-button" href="#">Фейсбук</a></li>
-              <li><a class="social-button" href="#">Вконтакте</a></li>
+              <li>
+               <div class="twitter">
+                <a class="twitter" href="https://twitter.com"></a>
+               </div>
+              </li>
+              <li>
+               <div class="instagram">
+                <a class="instagram" href="https://www.instagram.com"></a>
+               </div>
+              </li>
+              <li>
+               <div class="facebook">
+                <a class="facebook" href="https://facebook.com"></a>
+               </div>
+              </li>
+              <li>
+               <div class="vk">
+                <a class="vk" href="https://vk.com"></a>
+              </div>
+              </li>
             </ul>
           </div>
           <div class="footer-about">
-                  <ul class="ft-about">
-                    <li><a class="for-providers" href="#">Для поставщиков</a></li>
-                    <li><a class="about-production" href="#">О производстве</a></li>
-                    <li><a class="our-documents" href="#">Наши документы</a></li>
-                    <li><a class="environmental standards" href="#">Экологические стандарты</a></li>
-                  </ul>
-                </div>
+                <ul class="ft-about">
+                    <li><a class="for-providers" href="forproviders.html">Для поставщиков</a></li>
+                    <li><a class="about-production" href="about.html">О производстве</a></li>
+                    <li><a class="our-documents" href="documents.html">Наши документы</a></li>
+                    <li><a class="environmental-standards" href="standards.html">Экологические стандарты</a></li>
+                </ul>
+          </div>
      <p>
-       <a class="button" href="https://htmlacademy.ru">Сделано в HTML Academy © 2017</a>
+       Сделано в
+       <a class="made-by" href="https://htmlacademy.ru">HTML Academy</a>
+       © 2017
      </p>
-   </footer>
+    </footer>
   </body>
 </html>

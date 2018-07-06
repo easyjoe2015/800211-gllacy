@@ -9,7 +9,8 @@ body {
   color: #ffffff;
 
   background-color: #849d8f;
-  background-image: url("img/background-catalog.png");
+  width: 1200px;
+  height: 1650px;
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -45,6 +46,50 @@ body {
   font-weight: 700;
 }
 
+.сreme-brulee {
+  font-size: 60px;
+  line-height: 60.35px;
+  font-weight: 700;
+}
+.get-two {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+.get-it {
+  background-color: #ea5339;
+  width: 278px;
+  height: 63px;
+  border-radius: 30px;
+}
+.jam-background{
+  background-color: #ea5339;
+  width: 165px;
+  height: 46px;
+  border-radius: 20px;
+}
+.get-jam {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+.chocolate-background {
+  background-color: #ea5339;
+  width: 165px;
+  height: 46px;
+  border-radius: 20px;
+}
+.get-chocolate {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
 .special-offer {
   text-align: center;
 }
@@ -57,7 +102,12 @@ body {
   font-size: 45px;
   line-height: 45px;
   font-weight: 700;
-
+}
+.best-choise a {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #ffffff;
 }
 .best-choise span {
   font-size: 30px;
@@ -69,10 +119,13 @@ body {
 .about-waffle {
   font-size: 16px;
   line-height: 22px;
+  font-weight: 400;
   color: #323232;
 
   background-color: #eee2c8;
-  background-image: url("img/waffle.png");
+  width: 1146px;
+  height: 306px;
+  background-image: url("../img/waffle.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -88,7 +141,8 @@ body {
 
 
   background-color: #ffffff;
-  background-image: url("img/waysten.png");
+  border-radius: 15px;
+  background-image: url("../img/waysten.png");
   width: 560px;
   height: 220px;
   background-position: center;
@@ -99,21 +153,26 @@ body {
   line-height: 22px;
   font-weight: 500;
 }
+.ways-fruit .blog {
+    color: #323232;
+}
 .sweet-subscribe {
+  font-weight: 400;
   color: #323232;
 
+  background-image: url("../img/bg-post.svg");
+  background-repeat: no-repeat;
+}
+
+.sweet-background {
   background-color: #f8f7f4;
   width: 548px;
   height: 210px;
-  border-radius: 5px;
-
-  background-image: url("img/bg-post.svg");
-  background-position: center;
-  background-repeat: no-repeat;
+  border-radius: 10px;
 }
 .map {
   background-color: #ffffff;
-  background-image: url("img/map.jpg");
+  background-image: url("../img/map.jpg");
   width: 1200px;
   height: 430px;
   background-position: center;
@@ -128,13 +187,67 @@ body {
   background-color: #f8f7f4;
   width: 302px;
   height: 305px;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+.contacts-info .connect {
+  background-color: #ea5339;
+  width: 251px;
+  height: 43px;
+  border-radius: 20px;
+}
+.contacts-info .button-connect {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
 }
 .social  {
   list-style: none;
 }
+.social .twitter {
+  background-image: url("../img/twitter.svg");
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+}
+.social .instagram {
+  background-image: url("../img/instagram.svg");
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+}
+.social .facebook {
+  background-image: url("../img/fb.svg");
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+}
+.social .vk {
+  background-image: url("../img/vk.svg");
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+}
 .ft-about  {
   list-style: none;
+}
+.about-production,
+.our-documents,
+.environmental-standards {
+  color: #ffffff;
+}
+.popularity {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #ffffff;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 193px;
+  height: 36px;
+  border-radius: 10px;
+  border-color: : transparent;
 }
 .pagination-list {
   list-style: none;
@@ -153,16 +266,25 @@ body {
   font-size: 13px;
   line-height: 18px;
   font-weight: 700;
+  color: #ffffff;
 }
 .made-by {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
+  color: #ffffff;
 }
 .breadcrumbs {
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
+  color: #ffffff;
+}
+.breadcrumbs-current {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
 }
 .filters {
   font-size: 14px;
@@ -173,4 +295,11 @@ body {
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
+}
+.login-form .restore,
+.login-form .new-registration {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #323232;
 }
